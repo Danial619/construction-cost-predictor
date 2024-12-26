@@ -25,3 +25,36 @@ An AI-powered machine learning model that predicts construction project costs us
 - seaborn
 
 ## Project Structure
+construction-cost-predictor/
+├── src/
+│ ├── init.py
+│ └── predictor.py # Main prediction model
+├── images/
+│ ├── prediction_plot.png # Model prediction visualization
+│ └── feature_importance.png # Feature importance graph
+├── tests/
+│ └── test_predictor.py # Unit tests
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+├── .gitignore # Git ignore rules
+└── LICENSE # MIT license
+
+
+### Directory Details:
+
+#### src/
+- `predictor.py`: Main code for cost prediction
+- `__init__.py`: Python package initializer
+
+#### images/
+- `prediction_plot.png`: Visualization of model predictions
+- `feature_importance.png`: Feature importance analysis
+
+#### tests/
+- `test_predictor.py`: Unit tests for the predictor
+
+#### Root Directory
+- `requirements.txt`: Required Python packages
+- `README.md`: Project documentation
+- `.gitignore`: Git ignore specifications
+- `LICENSE`: MIT license file
